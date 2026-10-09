@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Large raw datasets (Kaggle creditcard.csv is ~150MB, do not commit large raw files)
+data/creditcard.csv
+data/*.zip
+
+# Logs
+*.log
